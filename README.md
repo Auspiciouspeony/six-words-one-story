@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-deranalabs-six-words-one-story-f982e410/Auspiciouspeony/six-words-one-story/rank.svg)](https://make.fun/bounty/u-deranalabs-six-words-one-story-f982e410/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-six-words-one-story-f982e410)
 [![reward](https://make.fun/badge/u-deranalabs-six-words-one-story-f982e410/Auspiciouspeony/six-words-one-story/reward.svg)](https://make.fun/bounty/u-deranalabs-six-words-one-story-f982e410?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-six-words-one-story-f982e410)
 
-One complete story in exactly six words: "He taught the parrot. It testified." A man teaches his parrot to talk — and the bird ends up on the witness stand. A whole crime, a trial, and a twist, in six words.
+One complete story in exactly six words: "He remembered everything. Except her name." A man whose memory is perfect — except for the one name that mattered most. A whole life, a marriage, and a mind failing, in six words.
 
 ## Run it
 
@@ -12,7 +12,7 @@ One complete story in exactly six words: "He taught the parrot. It testified." A
 python3 main.py
 ```
 
-It writes the story to `/output/entry.txt` (exactly six words, 35 characters, no trailing newline).
+It writes the story to `/output/entry.txt` (exactly six words, 41 characters, no trailing newline).
 
 ---
 

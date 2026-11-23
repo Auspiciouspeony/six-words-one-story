@@ -3,14 +3,15 @@
 
 Writes exactly one six-word story to /output/entry.txt.
 
-The story: "He taught the parrot. It testified."
-A man teaches his parrot to talk; the bird ends up on the
-witness stand. A whole crime, a trial, and a twist, in six words.
+The story: "He remembered everything. Except her name."
+A man whose memory is perfect — except for the one name that
+mattered most. A whole life, a marriage, and a mind failing,
+in six words: the twist lands in the final two.
 """
 
 import os
 
-STORY = "He taught the parrot. It testified."
+STORY = "He remembered everything. Except her name."
 
 
 def main() -> None:
