@@ -9,7 +9,6 @@ witness stand. A whole crime, a trial, and a twist, in six words.
 """
 
 import os
-import stat
 
 STORY = "He taught the parrot. It testified."
 
@@ -27,9 +26,10 @@ def main() -> None:
     # byte-for-byte the six-word story the judge reads.
     with open(path, "w", encoding="utf-8", newline="") as f:
         f.write(STORY)
-    # The grader collects outputs as another user: leave it readable.
+    # The grader collects outputs as another user: leave the file readable.
+    # (Only chmod the file we created; the /output directory itself is
+    # owned by the sandbox, and chmodding it fails as an unprivileged user.)
     os.chmod(path, 0o644)
-    os.chmod(out_dir, 0o755)
 
 
 if __name__ == "__main__":
